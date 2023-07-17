@@ -65,12 +65,11 @@ body {
 
 .header{
     padding: 26px 0;
-    border-bottom: 1px solid;
-    color: #E7E9FC;
+    border-bottom: 1px solid #E7E9FC;
 }
 
 .container {
-    max-width: 1158px;
+    width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -201,8 +200,7 @@ h1{
     display: flex;
     gap: 24px;
     align-items: center;
-    margin-bottom: 72px;
-    
+   
 }
 .section-no-bottom-padding{
     padding-bottom: 0;
@@ -252,7 +250,7 @@ h1{
 
 .benefits-container{
     display: flex;
-    gap: 24px;
+    gap: 22px;
 }
 
 .benefits-title{
@@ -267,10 +265,7 @@ h1{
 
 .section-grey{
     background-color: #F4F4FD;
-    width: 1440px;
-    height: 732px;
-    margin-left: auto;
-    margin-right: auto;
+   
 }
 
 .section-no-top-padding{
@@ -300,6 +295,7 @@ h1{
 }
 .team-title{
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 .team-position{
     color: #434455;
@@ -341,10 +337,7 @@ h1{
 
 .footer{
     background-color: #2E2F42;
-    width: 1440px;
-    height: 312px;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 100px 0;
 }
 
 .footer-logo{
